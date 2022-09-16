@@ -4,3 +4,19 @@
   background-color: lightgray;
   margin-bottom: 50px;
 }
+body{
+  background: rgb(78,78,78);
+  background: radial-gradient(circle, rgba(78,78,78,1) 0%, rgba(64,54,65,0.9927884615384616) 44%, rgba(2,0,36,1) 100%);
+}
+h1{
+  color: aliceblue;
+}
+.lambo-card{
+  background: rgb(54,45,50);
+  background: linear-gradient(90deg, rgba(54,45,50,1) 0%, rgba(23,67,70,1) 100%);
+  color: white;
+}
+.brand-cart{
+  background: rgb(19,147,147);
+  background: linear-gradient(0deg, rgba(19,147,147,1) 0%, rgba(255,255,255,1) 49%);
+}
