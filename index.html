@@ -26,23 +26,30 @@
             <a class="nav-link active" style="color: white;" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: white;" href="#">Link</a>
+            <a class="nav-link" style="color: white;" href="#brand">All Brands</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" style="color: white;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Brands
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#lamborghini">lamborghini</a></li>
+              <li><a class="dropdown-item" href="#Kawasaki">Kawasaki</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" >Disabled</a>
+            <a class="nav-link disabled" >Contact</a>
           </li>
+          <button class="btn btn-secondary" type="button" disabled>
+            <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+            This site is under construction...
+          </button>
         </ul>
+
+
+
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Search</button>
@@ -102,7 +109,7 @@
   <!-- Carousel Start -->
 
   <!-- Card Item Start -->
-  <h1 style="text-align: center; margin-bottom: 0; margin-top: 50px;">Brands</h1>
+  <h1 style="text-align: center; margin-bottom: 0; margin-top: 50px;" id="brand">Brands</h1>
   <div class="container d-flex justify-content-between" style="margin-top: 50px; ">
     <div class="card brand-cart" style="width: 18rem; ">
       <img src="media/lamborghini_logo.svg.png" class="card-img-top" alt="...">
@@ -160,7 +167,7 @@
   <div class="container space"></div>
 
   <!--lamborghini car-->
-  <div>
+  <div id="lamborghini">
     <h1 style="text-align: center; margin-bottom: 50px;">lamborghini Cars</h1>
     
     <div class="card mb-3 m-5 lambo-card" >
@@ -212,7 +219,7 @@
     <div class="container space"></div>
 
     <!-- kawasaki Bike  -->
-    <div>
+    <div id="Kawasaki">
       <h1 style="text-align: center; margin-bottom: 50px;">kawasaki Bikes</h1>
       
       <div class="card mb-3 m-5 lambo-card" >
